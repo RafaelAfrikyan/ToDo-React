@@ -26,7 +26,8 @@ function App() {
         value={value}
         onChange={(e) => setValue(e.target.value)}
       ></input>
-      <h2>Value : {result}</h2>
+
+      <h2>Value - {result}</h2>
 
       <button onClick={CtrlZ}>Ctrl+Z</button>
       <button onClick={CtrlShiftZ}>Ctrl + Shift + Z</button>
